@@ -220,3 +220,46 @@ body {
 .vercel-link hr {
   border-color: var(--border-primary);
 }
+
+/* .chatbot-section {
+  direction: rtl;
+  width: 500px;  /* Set the width to 400 pixels */
+  /* height: 700px; Set the height to 600 pixels */
+  /* background-color: #1F2BCA ; */
+/* } */ 
+
+@media (max-width: 768px) {
+  .chatbot-section {
+      width: 90vw;  /* 90% of the viewport width */
+      height: 90vh; /* 90% of the viewport height */
+  }
+}
+
+
+/* .chatbot-header {
+  text-align: right;
+}
+
+.chatbot-input {
+  text-align: right;
+}
+
+.chatbot-send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.chatbot-text-primary {
+  text-align: right;
+}
+
+.chatbot-text-secondary-inverse {
+  text-align: right;
+} */
+
+/* body {
+  direction: rtl;
+} */
+
